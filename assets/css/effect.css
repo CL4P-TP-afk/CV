@@ -1,0 +1,16 @@
+/* effet sur formation et exp */
+section div:hover {
+    background-color: #e3e3e3;
+    border-left: 0.5em solid #0F766E;
+    padding: 0.1em 0.5em 0.5em 0.5em;   
+}
+
+/* effet sur photo de profil */
+a:hover {
+    text-decoration: underline;
+}
+
+/*effet sur les icones*/
+img[alt|=icon]:hover {
+    filter: opacity(70%);
+}
