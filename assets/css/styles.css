@@ -1,0 +1,36 @@
+
+* {
+     font-family: "Raleway", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; 
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.profil {
+    text-indent: 2em;
+}
+address {
+    font-style: normal;
+}
+
+
+.no-marker>li {
+    font-weight: bold;
+    list-style: none;
+}
+
+.no-marker>li>span {
+    font-weight: initial;
+}
+
+small,
+small>time {
+    font-family: "Raleway-italic";
+}
+
+h3>time {
+    font-weight: initial;
+}
