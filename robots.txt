@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cl4p-tp-afk.github.io/CV/sitemap.xml
