@@ -9,8 +9,9 @@ body {
 header,
 main,
 footer {
-    width: 1160px;
-    margin: auto;
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 img[alt|=icon] {
@@ -63,7 +64,9 @@ h1 {
 main {
     display: grid;
     grid-template-columns: 1fr 2fr;
-
+}
+@media (max-width: 900px){
+    main { grid-template-columns: 1fr; }
 }
 
 section {

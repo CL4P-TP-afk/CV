@@ -13,9 +13,7 @@ footer {
     background-color: #e3e3e3;
 }
 
-img {
-    color:white ;
-}
+
 
 h1,
 .job,
@@ -32,5 +30,5 @@ li::marker {
 }
 
 hr {
-    filter: opacity(30%);
+    opacity: .3;
 }
